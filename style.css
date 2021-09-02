@@ -1,0 +1,98 @@
+body{
+    background-size: cover;
+    background-position: center;
+    border: 10px groove lavender;
+}
+.heading{
+    color: midnightblue;
+    background-color:mintcream;
+    border: 10px double navy;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: Cambria;
+    font-size: 40px;
+    width: 50%;
+}
+b{
+    color: lime;
+    font-size: 22px;
+}
+.note{
+    color: linen;
+    background-color: midnightblue;
+    padding: 10px;
+    border: mintcream 5px solid;
+}
+.note2{
+margin-top: 20px;
+width: fit-content;
+color: linen;
+background-color: midnightblue;
+padding: 10px;
+border: mintcream 5px solid;
+}
+#speed,#vol{
+    color:navy;
+    background-color: skyblue;
+    border: 4px solid navy;
+    border-radius: 20px;
+    padding: 8px;
+}
+img{
+    width: 150px;
+    border: mintcream groove 5px;
+
+}
+button{
+    color: snow;
+    width: fit-content;
+
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 25px;
+    border: 5px solid snow;
+
+}
+.playb{
+    background-color: darkgreen;
+    margin-right: 200px;
+}
+.stopb{
+    background-color: darkred;
+}
+.footer
+{
+    color: gold;
+    background-color: indigo;
+    border: 5px double gold;
+    bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    width: 98%;
+    margin-left: 4px;
+    margin-bottom:15px ;
+
+}
+.div_speed{
+    float: left;
+    margin-left: 20px;
+}
+.div_volume{
+    float: right;
+    margin-right: 20px;
+}
+canvas{
+    background:linear-gradient(navy,violet);
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px linen;
+    margin-top: 20px;
+    margin-left: -25px;
+
+}
+hr{
+    height: 4px;
+    background-color: gainsboro;
+}
